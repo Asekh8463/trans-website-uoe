@@ -1,0 +1,225 @@
+/*FONTS*/
+
+@font-face {
+  font-family: "opendyslexic";
+  src: url("fonts/OpenDyslexic-Regular.otf") format('opentype');
+}
+
+@font-face {
+  font-family: "opendyslexic";
+  src: url("fonts/OpenDyslexic-Bold.otf") format('opentype');
+  font-weight: bold;
+}
+
+/*BUTTONS*/
+.button1 {
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 1.1vw auto;
+	width: 24vw;
+	height: 7vw;
+    border: 0.15vw solid #353333;
+    display: flex;
+    padding: 1.2vw;
+    font-size: 1.15vw;
+    cursor: pointer;
+    position: relative;
+    background-color: #fecddc;
+    box-shadow: 0 .5vw #353333;
+    border-radius: 2.9vw;
+	font-family: opendyslexic;
+	font-weight: bold;
+	margin-top: 4vw;
+}
+
+.button2 {
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 1.1vw auto;
+	width: 17vw;
+	height: 4vw;
+    border: 0.15vw solid #353333;
+    display: flex;
+    padding: 1vw;
+    font-size: 1vw;
+    background-color: #fff;
+    box-shadow: 0 .4vw #000;
+    border-radius: 1.6vw;
+	font-family: opendyslexic;
+	font-weight: bold;
+	position: absolute;
+	z-index: 7;
+}
+
+.button3 {
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 1.1vw auto;
+	width: 20vw;
+	height: 7.5vw;
+    border: 0.15vw solid #353333;
+    display: flex;
+    padding: 1vw;
+    font-size: 1.2vw;
+    background-color: #fff;
+    box-shadow: 0 .7vw #000;
+    border-radius: 2vw;
+	font-family: opendyslexic;
+	font-weight: bold;
+	position: absolute;
+	z-index: 7;
+}
+
+.button1:hover {
+    background-color: #e6b9c7;
+    box-shadow: 0 0vw #4a9880;
+}
+
+.button2:hover, .button3:hover {
+    background-color: #dddddd;
+    box-shadow: 0 0vw #4a9880;
+}
+
+/*BOXES_1*/
+.greybg {
+	background-color: #353333;
+	position:absolute;
+}
+
+.whtbg {
+	background-color: #ffffff;
+	border-style: solid;
+	border-color: 0.1vw #484646;
+	z-index: 1;
+	position: absolute;
+}
+
+.pnkbg {
+	background-color: #fecddc;
+	z-index: 2;
+	position: absolute;
+}
+
+.lightgbx {
+	background-color: #dddddd;
+	z-index: 2;
+	position: absolute;
+}
+
+.blkbx {
+	background-color: #000;
+	position: absolute;
+}
+
+.bxbg1 {
+	width: 150px;
+	height: 150px;
+	position: relative;
+	margin: 30px;
+}
+
+.boximg1 {
+	position: relative;
+	z-index: 5;
+}
+
+.flex {
+	display: flex;
+	margin-left: 40vw;
+}
+
+.flex1 {
+	display: flex;
+}
+
+.tbox1 {
+	width: 8vw;
+	height: 15vw;
+	background-color: #606060;
+	padding: 10px;
+	margin: 10px;
+}
+
+/*BOXES_2*/
+.whtbgnb {
+	background-color: #ffffff;
+	z-index: 1;
+	position: absolute;
+}
+
+.pnkbgcrv {
+	background-color: #fecddc;
+	z-index: 2;
+	position: absolute;
+    border-radius: 2vw;
+}
+
+.whtbgcrv {
+	background-color: #ffffff;
+	border-style: solid;
+	border-color: 0.05vw #484646;
+	z-index: 3;
+	position: absolute;
+    border-radius: 2vw;
+}
+
+.boximg2 {
+	position: relative;
+	z-index: 5;
+	margin-top: 0.2vw;
+	margin-left: 0.2vw;
+    border-radius: 1.8vw;
+}
+
+.boximg3 {
+	position: relative;
+	z-index: 5;
+	object-fit: fill;
+}
+
+/*list w img*/
+
+
+/*text*/
+.subhd1 {
+	font-family: opendyslexic;
+    font-size: 1.4vw;
+	position:absolute;
+	z-index: 10; /*unconditionally on top*/
+	margin-top: 0vw;
+	text-align: center;
+}
+
+.subhd1_w {
+	font-family: opendyslexic;
+    font-size: 1.4vw;
+	position:absolute;
+	z-index: 10; /*unconditionally on top*/
+	margin-top: 0vw;
+	color: white;
+	text-align: center;
+}
+
+.txt1 {
+	font-family: opendyslexic;
+    font-size: 1.1vw;
+	position:absolute;
+	z-index: 10; /*unconditionally on top*/
+	margin-left: 1.5vw;
+	margin-right: -15vw;
+	margin-top: 5.7vw;
+	text-align: center;
+}
+	
+.txt1-2 {
+	font-family: opendyslexic;
+    font-size: 1.1vw;
+	position:absolute;
+	z-index: 10; /*unconditionally on top*/
+	margin-left: 1.5vw;
+	margin-right: -15vw;
+	margin-top: 5.7vw;
+	text-align: center;
+}
+	
+	
