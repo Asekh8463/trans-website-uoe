@@ -134,7 +134,7 @@ function moveup()
 
 function onload1()
 {
-	document.getElementById("page1").style.display = "none";
+	document.getElementById("page1").style.display = "block";
 	document.getElementById("page2").style.display = "none";
 	document.getElementById("page3").style.display = "none";
 	document.getElementById("page4").style.display = "none";
@@ -142,7 +142,7 @@ function onload1()
 	document.getElementById("page6").style.display = "none";
 	document.getElementById("page7").style.display = "none";
 	document.getElementById("page8").style.display = "none";
-	document.getElementById("page9").style.display = "block";
+	document.getElementById("page9").style.display = "none";
 }
 
 
