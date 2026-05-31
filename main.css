@@ -88,9 +88,7 @@
 
 .whtbg {
 	background-color: #ffffff;
-	border-style: solid;
-	border-color: 0.1vw #484646;
-	z-index: 1;
+	z-index: 3;
 	position: absolute;
 }
 
@@ -115,7 +113,6 @@
 	width: 150px;
 	height: 150px;
 	position: relative;
-	margin: 30px;
 }
 
 .boximg1 {
@@ -220,6 +217,38 @@
 	margin-right: -15vw;
 	margin-top: 5.7vw;
 	text-align: center;
+}
+
+.header1 {
+	font-family: opendyslexic;
+    font-size: 7vh;
+	position:absolute;
+	z-index: 10; /*unconditionally on top*/
+	margin-right: -100vw;
+}
+
+.header2 {
+	font-family: opendyslexic;
+    font-size: 4vh;
+	position:absolute;
+	z-index: 10; /*unconditionally on top*/
+	margin-right: -100vw;
+}
+
+.text1 {
+	font-family: opendyslexic;
+    font-size: 3vh;
+	position:absolute;
+	z-index: 10; /*unconditionally on top*/
+	margin-right: -85vw;
+}
+
+.text2 {
+	font-family: opendyslexic;
+    font-size: 2.4vh;
+	position:absolute;
+	z-index: 10; /*unconditionally on top*/
+	margin-right: -85vw;
 }
 	
 	
